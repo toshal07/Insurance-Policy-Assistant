@@ -1,0 +1,6 @@
+.env
+.venv/
+.policyai/
+__pycache__/
+*.pyc
+.streamlit/secrets.toml
