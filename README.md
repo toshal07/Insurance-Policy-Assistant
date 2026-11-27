@@ -110,3 +110,5 @@ All automated unit tests and syntax checks pass:
 - **Scanned PDFs:** Current extraction relies on embedded PDF text (`pypdf`); image-only scanned PDFs require OCR preprocessing before upload.
 - **Session-Scoped Documents:** Uploaded PDFs and FAISS indexes live in the active Streamlit session and are cleared on refresh or logout; persistent per-user encrypted document vaults can be added in future versions.
 - **Cross-Encoder Reranking & Hybrid Search:** Combining BM25 lexical matching with dense FAISS search and cross-encoder reranking can further improve retrieval precision on numeric policy tables.
+
+live demo : https://insurance-policy-assistant07.streamlit.app/
